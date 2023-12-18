@@ -1,0 +1,54 @@
+/* App.css */
+
+body {
+  background-color: rgb(158, 163, 1);
+}
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+form {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px 20px 30px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.success-message {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+}
+
+.input-field {
+  margin: 10px;
+  padding: 10px 50px 10px 5px;
+}
+
+.password-toggle {
+  cursor: pointer;
+  margin-left: 5px;
+  display: none;
+}
+
+.register-button {
+  background-color: green;
+  border: 0px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  width: 250px;
+  margin-top: 10px;
+}
